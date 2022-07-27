@@ -15,11 +15,9 @@ itself already has 7 wires declared (named a, b, c, w, x, y, and z). This is bec
 Writing input wire a is the same as input a. Thus, the assign statements are not creating wires, they are creating the connections between the 7 wires that already exist.
 */
 
-module top_module( 
-    input a,b,c,
-    output w,x,y,z );
+module top_module(input a,b,c, output w,x,y,z );
 	assign w = a;
-    assign x = b;
-    assign y = b;
-    assign z = c;
+    	assign x = b;
+    	assign y = b;
+    	assign z = c;
 endmodule
