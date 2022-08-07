@@ -13,7 +13,7 @@ module top_module (
     parameter left_a	= 16'he06b;
     parameter down_a 	= 16'he072;
     parameter right_a 	= 16'he074;
-    parameter up_a 		= 16'he075;
+    parameter up_a 	    = 16'he075;
     always@(*)
         begin
             up		=0;
